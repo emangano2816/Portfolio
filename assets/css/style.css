@@ -59,13 +59,21 @@ a {
  }
 
 .h2h3-container {
-    padding-right: 50px;    /*what is the best way to do length? getting confused with px em, etc.*/
-    padding-bottom: 30px;
+    margin-right: 50px;    /*what is the best way to do length? getting confused with px em, etc.*/
+    margin-bottom: 30px;
+    padding-top:10px;
+    width: 400px;
+    height: 65px;
+    background-color: white;
+    text-align: center;
  }
 
 h3 {
     color: grey;
+
 }
+
+
 
 
 
