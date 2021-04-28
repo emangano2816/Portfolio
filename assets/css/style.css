@@ -16,21 +16,24 @@ body {
     background-color: grey;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 25px 25px 0px;
+    padding: 25px 25px 25px 0px; 
 }
 
 .header-container h1 {
     background-color:white;
-    padding: 0px 0px 0px 1.5em;
-    font-size: 3em;
+    padding: 0.25em .25em 0.25em 1.5em;
+    font-size: 2.5em;
     
 }
 
-.navigation li {
+.nav-container ul {
+    padding: 0 1.5em 0 0;
+}
+.nav-container li {
     list-style-type: none;
     display: inline-block;
-    padding: 5px;
-    font-size: 1.5em;
+    padding: 0.5em;
+    font-size: 1.25em;
     font-weight: bold;
     border-bottom:5px solid white;
 }
@@ -40,6 +43,33 @@ a {
     color: white;
 
 }
+
+/*Subtitle style*/
+.subtitle-container {
+    background-image: url("../images/multi_dim_image.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-end;
+    /*how do I center h2 and h3? align-content doesn't do anything*/
+ }
+
+.h2h3-container {
+    padding-right: 50px;    /*what is the best way to do length? getting confused with px em, etc.*/
+    padding-bottom: 30px;
+ }
+
+h3 {
+    color: grey;
+}
+
+
+
+
 
 
 
