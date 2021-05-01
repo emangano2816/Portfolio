@@ -92,7 +92,18 @@ body {
 
 }
 
-.main-container div {
+.aboutme-headshot {
+    width:100px;
+    height:100px;
+    display: inline;
+    float:inline-start;
+    border-radius: 25px;
+    border: 5px solid white;
+    margin: auto;
+    
+}
+
+.main-container div{
     width:80%;
     height:auto;
     padding-top: 1%;
@@ -122,7 +133,10 @@ body {
     border-right: 2px double red;
 }
 
-.aboutme-container div,
+.aboutme-container .aboutme-info-container {
+    display: flex;
+    color: rgb(82, 81, 81)
+}
 .work-container div,
 .contactme-container div {
     color:rgb(82, 81, 81)
