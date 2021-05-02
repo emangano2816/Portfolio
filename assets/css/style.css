@@ -65,14 +65,26 @@ body {
     margin-right:1vw;
     font-size: 1em;
     font-weight: bold;
-    border-bottom:2px solid red;
 }
 
 .nav-container a {
+    /*setting up transition appearance*/
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, rgb(255,0,0) 0%, rgb(255,0,0) 100%);
+    background-position: bottom;
+    background-size: 100% 0.1em;
+    /*formatting anchor text*/
     text-decoration: none;
     color: rgb(82, 81, 81);
-
+    font-size: 150%;
 }
+    /*Adding transition when links are hovered over*/
+.nav-container a:hover {
+    transition: all 0.25s ease-in;
+    background-size: 100% 100%;
+    color: black;
+}
+
 
 /*Main container styles - outer most wrapper (level 0) in main section*/
 .main-container {
@@ -92,7 +104,8 @@ body {
 
 }
 
-.main-container div{
+.main-container div,
+.main-container address {
     width:80%;
     height:auto;
     padding-top: 1%;
@@ -175,10 +188,23 @@ body {
 }
 
 .contactinfo-container a {
+    background-repeat: no-repeat;
+    background-image: linear-gradient( red 0%, red 100%);
+    background-position: bottom;
+    background-size: 100% 0.1em;
+
     text-decoration:none;
     color: rgb(82, 81, 81);
-    font-size: 20px;
+    font-size: 150%;
 }
+
+.contactinfo-container a:hover {
+    transition: all 0.25s ease-in;
+    background-size: 100% 100%;
+    color: black;
+}
+
+
 
 /*Changes to layout when screen size is between 576px and 992px*/
 @media screen and (max-width: 992px) {
