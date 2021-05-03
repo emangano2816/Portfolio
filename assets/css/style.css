@@ -44,16 +44,14 @@ body {
     text-align: center;
 }
 
-.catch-phrase h2 {
+.catch-phrase h2, h3 {
     color:rgb(82, 81, 81);
     font-size:20px;
     margin-right:1vw;
 }
 
 .catch-phrase h3 {
-    color:rgb(82, 81, 81);
     font-size:15px;
-    margin-right:1vw;
 }
     /*Turning nav-ul into a flex box*/
 .nav-container ul {
@@ -86,7 +84,7 @@ body {
 }
 
 
-/*Main container styles - outer most wrapper (level 0) in main section*/
+/*Main container styles - outer wrapper of About Me, Work, and Contact Me sections*/
 .main-container {
     display:flex;
     flex-direction:column;
@@ -98,7 +96,7 @@ body {
 }
 
 .main-container h2 {
-    width: 15%;
+    width: 20%;
     padding-right: 2%;
     text-align:right;
 
@@ -106,7 +104,7 @@ body {
 
 .main-container div,
 .main-container address {
-    width:80%;
+    width:75%;
     height:auto;
     padding-top: 1%;
     padding-right: 0%;
@@ -114,7 +112,7 @@ body {
     padding-left:2%;
 }
 
-/*Main-sections - style for wrappers insde main (level 1)*/
+/*Main-sections - styles for each section within the main wrapper*/
 .aboutme-container,
 .work-container,
 .contactme-container {
@@ -150,7 +148,7 @@ body {
     display: inline;
     float:inline-start;
     border-radius: 25px;
-    border: 5px solid white;
+    border: 5px solid rgb(82, 81, 81);
     margin: auto 1% auto 1%;
 }
 
@@ -161,6 +159,53 @@ body {
 /*Styles specific to Projects wrapper*/
 .work-container {
     height: 70%;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+
+}
+
+.projects a {
+    display:block;
+    border-radius: 25px;
+    border: 5px solid rgb(82, 81, 81);
+    margin: 2%;
+ }
+
+.projects .html-css {
+    background-image: url("../images/html_css_placeholder.png");  
+    /*flex-item within projects container*/
+    flex: 0 0 100%;
+    height: 300px;     
+}
+
+.projects .javascript {
+    background-image: url("../images/javascript_resized.jpg");
+    flex: 0 0 46%;
+    height: 150px;
+}
+
+.projects .mysql {
+    background-image: url("../images/mysql_resized.jpg");
+    flex: 0 0 46%;
+    height: 150px;
+}
+
+.projects .nodejs {
+    background-image: url("../images/nodejs_resized.jpg");
+    flex: 0 0 46%;
+    height: 150px;
+}
+
+.projects .python {
+    background-image: url("../images/python_resized.png");
+    flex: 0 0 46%;
+    height: 150px;
 }
 
 
