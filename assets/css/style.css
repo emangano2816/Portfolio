@@ -186,6 +186,8 @@ body {
 
 .projects .html-css {
     background-image: url("../images/html_css_placeholder.png");  
+    background-size: contain;
+    
     /*flex-item within projects container*/
     flex: 0 0 100%;
     height: 300px;     
@@ -352,16 +354,17 @@ body {
         align-items: center;
     }
 
-    /*Changing Work Images to display column*/
-    .projects {
-        flex-direction: column;
-
+    /*Changing Projects container to display 100% of width*/
+    .main-container .projects {
+        width:100%;
     }
-
-    .projects + a {
-        flex: 1 0 100%;
+    /*Changing Work Images (2-5) to display 100% of width*/
+    .projects .javascript,
+    .projects .mysql,
+    .projects .nodejs,
+    .projects .python {
+        flex:0 0 100%;
     }
-
 }
 
 
