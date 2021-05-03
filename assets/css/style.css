@@ -292,16 +292,20 @@ body {
          justify-content: center;
      } 
 
-    /*Changing AboutMe to display as column*/
-    .aboutme-container {
+    /*Changing AboutMe, Work, Contact Me to display as column*/
+    .aboutme-container,
+    .contactme-container,
+    .work-container {
         flex-direction: column;
         align-items:center;
     }
-    /*Changing appearance of items insdide AboutMe*/
-    .aboutme-container h2 {
+    /*Changing appearance of items insdide AboutMe, Work, and Contact Me*/
+    .aboutme-container h2,
+    .contactme-container h2,
+    .work-container h2 {
         width:100%;
-        background-color: rgb(82, 81, 81);
-        color:white;
+        background-color: var(--primary);
+        color:var(--tertiary);
         text-align:center;
         border:none;
         padding:0;
@@ -312,21 +316,6 @@ body {
         padding:1%;
     }
         
-     /*Changing ContactMe containers to display as column*/
-    .contactme-container {
-    flex-direction: column;
-    align-items:center;
-    }
-         /*Changing appearance of items inside ContactMe section*/
-    .contactme-container h2 {
-        width:100%;
-        background-color: rgb(82, 81, 81);
-        color:white;
-        text-align:center;
-        border:none;
-        padding:0;
-    }
-
     .contactme-container div {
         width: 100%;
         padding: 0%;
@@ -339,7 +328,7 @@ body {
     }
 
     .contactinfo-container a {
-        color: red;
+        color: var(--pop);
     }
 }
 
@@ -349,49 +338,35 @@ body {
     .nav-container ul {
         flex-direction: column;
         align-items: center;
-        border-top: 2px ridge red;
-        border-bottom: 2px ridge red;
+        border-top: 2px ridge var(--pop);
+        border-bottom: 2px ridge var(--pop);
     }
     .nav-container li {
         border: none;
         line-height: 150%;    
     }
 
+    /*Changing About Me Information to display vertical*/
+    .aboutme-info-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    /*Changing Work Images to display column*/
+    .projects {
+        flex-direction: column;
 
+    }
 
-
+    .projects + a {
+        flex: 1 0 100%;
+    }
 
 }
 
 
 
-/*bottom to top anchor cover - ideas from googling - having trouble with this part
-a {
-    position: relative;
-    z-index: 1;
-    text-decoration:white;
-    color: white;
-}
 
-a:after {
-    content:"";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: scaleY(0);
-    transform-origin: bottom center;
-    background: white;
-    z-index: -1;
-    transition: transform 0.3s;
-}
 
-a:hover::after {
-    color:grey;
-    transform: scaleY(1);
-    
-}
-*/
+
 
