@@ -43,7 +43,7 @@ body {
     /*formatting items within the header flex-box*/
 .name h1{
     color:var(--pop);
-    font-size:3.5em;
+    font-size:4em;
     margin-right: 1vw;
 }
 
@@ -53,12 +53,12 @@ body {
 
 .catch-phrase h2, h3 {
     color:var(--primary);
-    font-size:20px;
+    font-size:1.5em;
     margin-right:1vw;
 }
 
 .catch-phrase h3 {
-    font-size:15px;
+    font-size:1em;
 }
     /*Turning nav-ul into a flex box*/
 .nav-container ul {
@@ -136,7 +136,7 @@ body {
 .work-container h2,
 .contactme-container h2 {
     color:var(--primary);
-    font-size:2em;
+    font-size:2.5em;
     border-right: 2px double var(--pop);
 }
 
@@ -176,15 +176,6 @@ body {
     justify-content: center;
     align-items:center;
     align-content: center;
-
-}
-
-.projects h2 {
-    display:inline-block;
-    border: 5px solid var(--tertiary);
-    background-color: var(--tertiary);
-    color: var(--primary);
-    text-decoration: none;
 
 }
 
@@ -238,6 +229,33 @@ body {
     height: 150px;
 }
 
+.projects h2 {
+    display:inline-block;
+    border-right: 3px solid var(--primary);
+    border-top:3px solid var(--primary);
+    border-bottom:3px solid var(--primary);
+    background-color: var(--tertiary);
+    color: var(--primary);
+    text-decoration: none;
+    font-size:1.5em;
+}
+
+.projects a:first-child h2 {
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    position: relative;
+    top:235px;
+    width:15%;
+}
+
+.projects a:nth-child(n+2) h2 {
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    position: relative;
+    top:85px;
+    width:30%;
+}
+
 
 /*Styles specific to ContactMe wrapper*/
 .contactme-container {
@@ -285,16 +303,17 @@ body {
 @media screen and (max-width: 992px) {
     /*Changing header display*/
     .header-container {
-        justify-content:space-between;
+        justify-content:space-around;
     }
     /*Changing name display*/ 
     .name {
          width:100%;
-         background:var(--pop)
+         background:var(--pop);
+
      }
      .name h1 {
          text-align:center;
-         color: var(--primary)
+          color: var(--primary) 
      }
      /*Changing catch-phrase display*/
      .catch-phrase {
@@ -338,6 +357,16 @@ body {
         width:auto;
         padding:1%;
     }
+
+    .work-container .projects h2 {
+        border-right: 3px solid var(--primary);
+        border-top:3px solid var(--primary);
+        border-bottom:3px solid var(--primary);
+        background-color: var(--tertiary);
+        color: var(--primary);
+        text-decoration: none;
+        font-size:1.5em;
+    }
         
     .contactme-container .contactinfo-container {
         width: 100%;
@@ -353,6 +382,8 @@ body {
     .contactinfo-container a {
         color: var(--pop);
     }
+
+
 }
 
 /*Changes to layout when screen size is less than or equal to 576px*/
