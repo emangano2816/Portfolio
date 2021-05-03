@@ -109,7 +109,8 @@ body {
 
 }
 
-.main-container div,
+.main-container .aboutme-info-container,
+.main-container .projects,
 .main-container address {
     width:75%;
     height:auto;
@@ -177,12 +178,25 @@ body {
 
 }
 
+.projects h2 {
+    display:inline-block;
+    border: 5px solid var(--tertiary);
+    background-color: var(--tertiary);
+    color: var(--primary);
+    text-decoration: none;
+
+}
+
 .projects a {
+    text-decoration: none;
     display:block;
     border-radius: 25px;
     border: 5px solid var(--primary);
     margin: 2%;
+    /*Creates shadow effect on inside of box: x-offset, y-offset, spread, color*/
+    box-shadow: inset 60px 60px 120px var(--primary);
  }
+
 
 .projects .html-css {
     background-image: url("../images/html_css_placeholder.png");  
@@ -313,12 +327,12 @@ body {
         padding:0;
     }
 
-    .aboutme-container div {
+    .aboutme-container .aboutme-info-container {
         width:auto;
         padding:1%;
     }
         
-    .contactme-container div {
+    .contactme-container .contactinfo-container {
         width: 100%;
         padding: 0%;
     }
