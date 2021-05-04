@@ -57,4 +57,4 @@ To exceed expectations and include functionality resembling the mock-up, the fol
 ![screenshot](/assets/images/Portfolio_MediaView_at_576px_resize.png)
 
 ### Video of Application Functionality
-![portfolio demo](/assets/images/video/)
+![portfolio_demo](https://user-images.githubusercontent.com/79860046/117034965-d2389d00-acd1-11eb-8317-6cfca300fd12.gif)
