@@ -48,10 +48,13 @@ To exceed expectations and include functionality resembling the mock-up, the fol
 
 ## Screenshots and Video
 ### Full Screen View
-![screenshot](/assets/images/)
+![screenshot](/assets/images/Portfolio_Full_Size_View_resize.png)
 
 ### Media Screen @ max-width 992px
-![screenshot](/assets/images/)
+![screenshot](/assets/images/Portfolio_MediaView_at_992px_resize.png)
 
 ### Media Screen @ max-width 576px
-![screenshot](/assets/images/)
+![screenshot](/assets/images/Portfolio_MediaView_at_576px_resize.png)
+
+### Video of Application Functionality
+![portfolio demo](/assets/images/video/)
