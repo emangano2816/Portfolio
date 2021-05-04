@@ -245,7 +245,7 @@ body {
     border-bottom-right-radius:10px;
     position: relative;
     top:235px;
-    width:15%;
+    width:120px;
 }
     /*setting h2 displayed on applications 2-5*/
 .projects a:nth-child(n+2) h2 {
@@ -253,7 +253,7 @@ body {
     border-bottom-right-radius:10px;
     position: relative;
     top:85px;
-    width:30%;
+    width:120px;
 }
 
 
