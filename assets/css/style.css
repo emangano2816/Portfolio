@@ -194,13 +194,12 @@ body {
      transition: all, 3s, ease-in;
      background-color:var(--secondary);
  }
-    /*setting size of first project to be the largest*/
+    /*setting size of first project image to be the largest*/
  .projects a:first-child {
-         /*flex-item within projects container*/
-    flex: 0 0 100%;
+    flex: 0 0 96%;
     height: 300px;   
  }
-    /*setting size of project 2-5*/
+    /*setting size of project images 2-5*/
  .projects a:nth-child(n+2) {
     flex: 0 0 46%;
     height: 150px;
@@ -413,7 +412,7 @@ body {
     }
     /*Changing Work Images (2-5) to display 100% of width*/
     .projects a:nth-child(n+2) {
-        flex:0 0 100%;
+        flex:0 0 96%;
     }
 }
 
