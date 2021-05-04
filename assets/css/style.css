@@ -127,7 +127,7 @@ body {
 .contactme-container {
     width:100%;
     display:flex;
-    flex: row wrap;
+    flex-flow: row wrap;
     margin-top:10px;
     margin-bottom:15px;
 }
@@ -149,6 +149,7 @@ body {
 .aboutme-container .aboutme-info-container {
     display: flex;
     color: var(--primary);
+    margin: 2%;
 }
 
 .aboutme-headshot {
@@ -176,6 +177,9 @@ body {
     justify-content: center;
     align-items:center;
     align-content: center;
+
+    flex:50%;
+    margin-right:1%;
 
 }
     /*setting shared project anchor properties*/
@@ -339,6 +343,7 @@ body {
     .work-container {
         flex-direction: column;
         align-items:center;
+        align-content:center;
     }
     /*Changing appearance of items insdide AboutMe, Work, and Contact Me*/
     .aboutme-container h2,
@@ -357,7 +362,14 @@ body {
         padding:1%;
     }
 
-    /*Keeping header on top of image same color scheme*/
+    /*Additoinal modifications for Projects Container*/
+    .main-container .projects {
+        width: 100%;
+        margin-left:2%;
+        padding: 1%;
+
+
+    }
     .work-container .projects h2 {
         border-right: 3px solid var(--primary);
         border-top:3px solid var(--primary);
@@ -367,7 +379,8 @@ body {
         text-decoration: none;
         font-size:1.5em;
     }
-        
+       
+    /*Additional modifications for Contact Me Container*/
     .contactme-container .contactinfo-container {
         width: 100%;
         padding: 0%;
