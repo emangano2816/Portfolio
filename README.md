@@ -46,6 +46,12 @@ To exceed expectations and include functionality resembling the mock-up, the fol
 1. Included a transition when the employer hovers over the navigation links and contact links.  The background color red fills from bottom to top and the text color changes to white.
 2. Included a transtion when the employer hovers over the 'Work' section images.  The employer will see the image change color upon hovering over each image.
 
-## Screenshot
+## Screenshots and Video
+### Full Screen View
+![screenshot](/assets/images/)
 
-![screenshot](/assets/images/UPDATE.png)
+### Media Screen @ max-width 992px
+![screenshot](/assets/images/)
+
+### Media Screen @ max-width 576px
+![screenshot](/assets/images/)
