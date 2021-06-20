@@ -205,25 +205,25 @@ body {
     height: 150px;
  }
 
-.projects .html-css {
-    background-image: url("../images/html_css_placeholder.png");  
-    background-size: contain;
+.projects #work1 {
+    background-image: url("../images/project1_movie-drink_matchmaker_resized.png");  
+    background-size: cover;
 }
 
-.projects .javascript {
-    background-image: url("../images/javascript_resized.jpg");
+.projects #work2 {
+    background-image: url("../images/Code_Quiz_resized.png");
 }
 
-.projects .mysql {
-    background-image: url("../images/mysql_resized.jpg");
+.projects #work3 {
+    background-image: url("../images/Weather_Dashboard_resized.png");
 }
 
-.projects .nodejs {
-    background-image: url("../images/nodejs_resized.jpg");
+.projects #work4 {
+    background-image: url("../images/workday_scheduler_resized.png");
 
 }
 
-.projects .python {
+.projects #work5 {
     background-image: url("../images/python_resized.png");
 }
 
