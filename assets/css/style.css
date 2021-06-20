@@ -212,19 +212,23 @@ body {
 
 .projects #work2 {
     background-image: url("../images/Code_Quiz_resized.png");
+    background-size: cover;
 }
 
 .projects #work3 {
     background-image: url("../images/Weather_Dashboard_resized.png");
+    background-size: cover;
 }
 
 .projects #work4 {
     background-image: url("../images/workday_scheduler_resized.png");
+    background-size: cover;
 
 }
 
 .projects #work5 {
     background-image: url("../images/python_resized.png");
+    background-size: cover;
 }
 
     /*setting h2 properties shared by all applications 1-5*/
