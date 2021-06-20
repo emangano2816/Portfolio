@@ -29,10 +29,13 @@
 8. Verified that each pinned respository has at least 20 commits.
 
 ## Updates to Resume
-Overhauled existing resume.  Included new Gmail address, links to LinkedIn, GitHub, and Portfolio.  Included Technical skills section.  Includes list of three works with brief description and languages used.  Turned the title of the project into a hyperlink that will redirect the user to the deployed application.
+1. Included new Gmail address.
+2. Inlcuded links to LinkedIn, GitHub, and Portfolio.  
+3. Included Technical skills section.  
+4. Included list of three works with brief description and languages used.  Turned the title of the project into a hyperlink that will redirect the user to the deployed application.
 
 ## Updates to LinkedIn
 Included a summary, professional photo, and links to GitHub and my Portfolio.
 
 ### Portfolio Functionality
-![portfolio_demo](https://user-images.githubusercontent.com/79860046/117034965-d2389d00-acd1-11eb-8317-6cfca300fd12.gif)
+![portfolio_demo.](./assets/images/portfolio_demo.gif)
