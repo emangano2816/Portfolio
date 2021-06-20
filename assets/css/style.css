@@ -236,23 +236,25 @@ body {
     background-color: var(--tertiary);
     color: var(--primary);
     text-decoration: none;
-    font-size:1.5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size:1em;
 }
     /*setting h2 displayed on first application*/
 .projects a:first-child h2 {
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
     position: relative;
-    top:235px;
-    width:120px;
+    top:175px;
+    width:150px;
 }
     /*setting h2 displayed on applications 2-5*/
 .projects a:nth-child(n+2) h2 {
     border-top-right-radius:10px;
     border-bottom-right-radius:10px;
     position: relative;
-    top:85px;
-    width:120px;
+    top:65px;
+    width:100px;
 }
 
 
