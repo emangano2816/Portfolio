@@ -1,4 +1,4 @@
-# Portfolio
+# Professional Materials
 
 ## URLs
 1. Deployed application: https://emangano2816.github.io/Portfolio/
@@ -34,9 +34,5 @@ Overhauled existing resume.  Included new Gmail address, links to LinkedIn, GitH
 ## Updates to LinkedIn
 Included a summary, professional photo, and links to GitHub and my Portfolio.
 
-## Technologies Used
-1. HTML
-2. CSS
-
-### Video of Application Functionality
+### Portfolio Functionality
 ![portfolio_demo](https://user-images.githubusercontent.com/79860046/117034965-d2389d00-acd1-11eb-8317-6cfca300fd12.gif)
