@@ -375,7 +375,22 @@ body {
         background-color: var(--tertiary);
         color: var(--primary);
         text-decoration: none;
-        font-size:1.5em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size:1em;
+    }
+
+    /*setting h2 displayed on first application*/
+    .projects a:first-child h2 {
+        position: relative;
+        top:175px;
+        width:150px;
+    }
+        /*setting h2 displayed on applications 2-5*/
+    .projects a:nth-child(n+2) h2 {
+        position: relative;
+        top:65px;
+        width:100px;
     }
        
     /*Additional modifications for Contact Me Container*/
