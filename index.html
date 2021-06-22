@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <!--included to optimize site for different screen sizes-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />  
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
@@ -53,34 +55,33 @@
                 </div>
             </section>
 
+
             <section id="work" class="work-container work-item">
                 <h2>Work</h2>
                 <div class="projects">
-                    <a href="https://evperkinsjr.github.io/movie-drink-matchmaker/" target="_blank" rel="noreferrer noopener" class="project-item" id="work1">
-                        <div>
-                            <h2>Movie-Drink Matchmaker</h2>
-                        </div>
-                    </a>
-                    <a href="https://emangano2816.github.io/code_quiz/" target="_blank" rel="noreferrer noopener" class="project-item" id="work2">
+                    <button  class="project-item" id="work1" onclick="document.getElementById('project1').style.display='block'">
+                        <h2>Movie-Drink Matchmaker</h2>
+                    </button>
+                    <button class="project-item" id="work2" onclick="document.getElementById('project2').style.display='block'">
                         <div>
                             <h2>Code Quiz</h2>
                         </div>
-                    </a>
-                    <a href="https://emangano2816.github.io/weather_dashboard/" target="_blank" rel="noreferrer noopener" class="project-item" id="work3">
+                    </button>
+                    <button class="project-item" id="work3" onclick="document.getElementById('project3').style.display='block'">
                         <div>
                             <h2>Weather Dashboard</h2>
                         </div>
-                    </a>
-                    <a href="https://emangano2816.github.io/work_day_scheduler/" target="_blank" rel="noreferrer noopener" class="project-item" id="work4">
+                    </button>
+                    <button class="project-item" id="work4" onclick="document.getElementById('project4').style.display='block'">
                         <div>
                             <h2>Work Day Scheduler</h2></hw>
                         </div>
-                    </a>
-                    <a href="#" class="project-item" id="work5">
+                    </button>
+                    <button class="project-item" id="work5" onclick="document.getElementById('project5').style.display='block'">
                         <div>
                             <h2>App 5</h2>
                         </div>
-                    </a>
+                    </button>
                 </div>
             </section> 
             
@@ -105,6 +106,62 @@
             </section>
         </main>
 
+
+
+        <!-- Modal Project 1 -->
+        <div id="project1" class="w3-modal ">
+            <div class="w3-modal-content custom-modal">
+                <span onclick="document.getElementById('project1').style.display='none'"
+                class="w3-button w3-display-topright modal-close">&times;</span>
+                <p>Which would you like to view?</p>
+                <a href="https://evperkinsjr.github.io/movie-drink-matchmaker/" target="_blank" rel="noreferrer noopener">Application</a> 
+                <a href="https://github.com/evperkinsjr/movie-drink-matchmaker" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
+            </div>
+        </div>
+
+        <!-- Modal Project 2 -->
+        <div id="project2" class="w3-modal">
+            <div class="w3-modal-content custom-modal">
+                <span onclick="document.getElementById('project2').style.display='none'"
+                class="w3-button w3-display-topright modal-close">&times;</span>
+                <p>Which would you like to view?</p>
+                <a href="https://emangano2816.github.io/code_quiz/" target="_blank" rel="noreferrer noopener">Application</a> 
+                <a href="https://github.com/emangano2816/code_quiz" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
+            </div>
+        </div>
+
+        <!-- Modal Project 3 -->
+        <div id="project3" class="w3-modal">
+            <div class="w3-modal-content custom-modal">
+                <span onclick="document.getElementById('project3').style.display='none'"
+                class="w3-button w3-display-topright modal-close">&times;</span>
+                <p>Which would you like to view?</p>
+                <a href="https://emangano2816.github.io/weather_dashboard/" target="_blank" rel="noreferrer noopener">Application</a> 
+                <a href="https://github.com/emangano2816/weather_dashboard" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
+            </div>
+        </div>
+
+        <!-- Modal Project 4 -->
+        <div id="project4" class="w3-modal">
+            <div class="w3-modal-content custom-modal">
+                <span onclick="document.getElementById('project4').style.display='none'"
+                class="w3-button w3-display-topright modal-close">&times;</span>
+                <p>Which would you like to view?</p>
+                <a href="https://emangano2816.github.io/work_day_scheduler/" target="_blank" rel="noreferrer noopener">Application</a> 
+                <a href="https://github.com/emangano2816/work_day_scheduler" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
+            </div>
+        </div>
+
+        <!-- Modal Project 5 -->
+        <div id="project5" class="w3-modal">
+            <div class="w3-modal-content custom-modal">
+                <span onclick="document.getElementById('project5').style.display='none'"
+                class="w3-button w3-display-topright modal-close">&times;</span>
+                <p>Which would you like to view?</p>
+                <a href="#" target="_blank" rel="noreferrer noopener">Application</a> 
+                <a href="#" target="_blank" rel="noreferrer noopener">GitHub Repository</a>
+            </div>
+        </div>
 
 
   </body>
