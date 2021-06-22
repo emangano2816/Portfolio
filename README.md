@@ -36,5 +36,5 @@
 ## Updates to LinkedIn
 Included a summary, professional photo, and links to GitHub and my Portfolio.
 
-### Portfolio Functionality
+## Portfolio Functionality
 ![portfolio_demo.](./assets/images/portfolio_demo.gif)
