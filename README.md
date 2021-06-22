@@ -16,6 +16,9 @@
    * Screenshot of the application is used as the image that is displayed.
 5. Application is polished and mobile-responsive.
 
+### Portfolio Functionality
+![portfolio_demo.](./assets/images/portfolio_demo.gif)
+
 ## Updates to GitHub
 1. Added avatar.
 2. Added biography.
@@ -36,5 +39,3 @@
 ## Updates to LinkedIn
 Included a summary, professional photo, and links to GitHub and my Portfolio.
 
-## Portfolio Functionality
-![portfolio_demo.](./assets/images/portfolio_demo.gif)
