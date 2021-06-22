@@ -1,8 +1,8 @@
 # Professional Materials
 
-## URLs
+## Links
 1. Deployed application: https://emangano2816.github.io/Portfolio/
-2. GitHub Repository: https://github.com/emangano2816/Portfolio
+2. GitHub Repository: https://github.com/emangano2816
 3. [Resume](./assets/documents/Resume_Mangano_Elizabeth_20210620.pdf)
 4. LinkedIn Profile: https://www.linkedin.com/in/elizabeth-mangano-40353b55/
 
