@@ -11,10 +11,10 @@
 2. Verified GitHub link; added LinkedIn link in contact section.
 3. Updated resume; verified link is working.
 4. Updated Work section to display 4 projects/homework assignments.
-  * Updated Project Title for each work displayed.
-  * Clicking on the work image redirects to the deployed version of the application.
-  * Chose NOT to link to GitHub repositor, because I have a link to my GitHub account in the Contact section AND all of the applications displayed in my portfolio are pinned.  It is the first think a user will see if they visit my GitHub account.
-  * Screenshot of the application is used as the image that is displayed.
+   * Updated Project Title for each work displayed.
+   * Clicking on the work image redirects to the deployed version of the application.
+   * Chose NOT to link to GitHub repositor, because I have a link to my GitHub account in the Contact section AND all of the applications displayed in my portfolio are pinned.  It is the first think a user will see if they visit my GitHub account.
+   * Screenshot of the application is used as the image that is displayed.
 5. Application is polished and mobile-responsive.
 
 ## Updates to GitHub
@@ -25,7 +25,7 @@
 5. Pinned 4 repositories.
 6. Followed four classmates.
 7. Updated README.md of pinned repositories.
-  * Inlcuded: Title of App, List of Technologies Used, Description, GIF of app, License reference, Contact Information
+   * Inlcuded: Title of App, List of Technologies Used, Description, GIF of app, License reference, Contact Information
 8. Verified that each pinned respository has at least 20 commits.
 
 ## Updates to Resume
