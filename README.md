@@ -12,10 +12,12 @@
 3. Updated resume; verified link is working.
 4. Updated Work section to display 4 projects/homework assignments.
    * Updated Project Title for each work displayed.
-   * Clicking on the work image redirects to the deployed version of the application.
-   * Chose NOT to link to GitHub repositor, because I have a link to my GitHub account in the Contact section AND all of the applications displayed in my portfolio are pinned.  It is the first think a user will see if they visit my GitHub account.
+   * Clicking on the work image calls a modal to be displayed where the user is able to choose between opening the application or the GitHub repository.
    * Screenshot of the application is used as the image that is displayed.
 5. Application is polished and mobile-responsive.
+
+### Portfolio Functionality
+![portfolio_demo.](./assets/images/portfolio_demo.gif)
 
 ## Updates to GitHub
 1. Added avatar.
@@ -37,5 +39,3 @@
 ## Updates to LinkedIn
 Included a summary, professional photo, and links to GitHub and my Portfolio.
 
-### Portfolio Functionality
-![portfolio_demo.](./assets/images/portfolio_demo.gif)
