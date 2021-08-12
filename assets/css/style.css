@@ -207,28 +207,28 @@ body {
  }
 
 .projects #work1 {
-    background-image: url("../images/project1_movie-drink_matchmaker_resized.png");  
+    background-image: url("../images/sharespace_resize.png");
     background-size: cover;
 }
 
 .projects #work2 {
-    background-image: url("../images/Code_Quiz_resized.png");
+    background-image: url("../images/project1_movie-drink_matchmaker_resized.png");  
     background-size: cover;
 }
 
 .projects #work3 {
-    background-image: url("../images/Weather_Dashboard_resized.png");
+    background-image: url("../images/Code_Quiz_resized.png");
     background-size: cover;
 }
 
 .projects #work4 {
-    background-image: url("../images/workday_scheduler_resized.png");
+    background-image: url("../images/Weather_Dashboard_resized.png");
     background-size: cover;
 
 }
 
 .projects #work5 {
-    background-image: url("../images/sharespace_resize.png");
+    background-image: url("../images/workday_scheduler_resized.png");
     background-size: cover;
 }
 
