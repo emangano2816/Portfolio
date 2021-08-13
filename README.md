@@ -1,4 +1,4 @@
-# Professional Materials - Update
+# Professional Materials - Updated
 
 ## Links
 1. Deployed application: https://emangano2816.github.io/Portfolio/
@@ -8,7 +8,7 @@
 
 ## Updates to Portfolio since Project 1
 Work section updated:
-   * includes project 2
+   * included project 2
    * reordered projects
    * created modal to give project description, technologies, and links to application or gitHub when project images are clicked on
 
